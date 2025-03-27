@@ -4,11 +4,11 @@ const Footer = () => {
 
     return (
 
-        < div className={`flex flex-col h-50 bottom-0 bg-violet-900 px-20 pt-5   text-white dark:text-violet-300`} >
+        < div className={`flex flex-col h-50 bottom-0 bg-cyan-500 px-20 pt-5   text-white dark:text-cyan-100`} >
             <ul className='space-y-5'>
-                <li> <span className='hover:text-violet-500 cursor-pointer '>Quienes somos</span></li>
-                <li> <span className='hover:text-violet-500 cursor-pointer '>Avisos legales</span></li>
-                <li> <span className='hover:text-violet-500 cursor-pointer '>Contactanos</span></li>
+                <li> <span className='hover:text-cyan-900 cursor-pointer '>Quienes somos</span></li>
+                <li> <span className='hover:text-cyan-900 cursor-pointer '>Avisos legales</span></li>
+                <li> <span className='hover:text-cyan-900 cursor-pointer '>Contactanos</span></li>
             </ul>
 
             <div className='flex  flex-row w-full justify-center content-stretch gap-5 text-xl'>

@@ -31,7 +31,7 @@ const ProductsList = () => {
               animate='animate_menu'
               exit='exit_menu'
               transition={{ duration: 1 }}
-              className='fixed top-0 right-0  bg-violet-200 dark:bg-gray-800 w-90 sm:w-110 h-full z-1   overflow-y-auto scrollbar-thin scrollbar-track-gray-700 scrollbar-thumb-gray-600'
+              className='fixed top-0 right-0  bg-cyan-200 dark:bg-gray-800 w-90 sm:w-110 h-full z-1   overflow-y-auto scrollbar-thin scrollbar-track-gray-700 scrollbar-thumb-gray-600'
             >
               <SideBar onClose={SidebarClose} />
 
